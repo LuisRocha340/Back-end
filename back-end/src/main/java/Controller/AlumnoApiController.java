@@ -14,4 +14,10 @@ public interface AlumnoApiController {
 
     @PostMapping("/")
     ResponseEntity<Alumnos> createAlumno(@RequestBody Alumnos alumnoNuevo);
+
+    @PutMapping("/alumnos/{nombre}") // Endpoint para actualizar un alumno
+    ResponseEntity<String> updateAlumno(@PathVariable String nombre, @RequestBody Alumnos alumnoActualizado);
+
+    @DeleteMapping("/alumnos/{nombre}") // Endpoint para eliminar un alumno
+    ResponseEntity<String> deleteAlumno(@PathVariable String nombre);
 }

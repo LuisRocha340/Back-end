@@ -2,10 +2,15 @@ package Controller.model;
 
 public class Alumnos {
 
-    String nombre;
-    String apellidoPat;
-    String apellidoMat;
-    Integer edad;
+    private String nombre;
+    private String apellidoPat;
+    private String apellidoMat;
+    private Integer edad;
+    private String telefono; // Nueva propiedad
+    private String email;    // Nueva propiedad
+
+    // Métodos getters y setters para nombre, apellidoPat, apellidoMat, edad, telefono y email
+
     public String getNombre() {
         return nombre;
     }
@@ -30,7 +35,6 @@ public class Alumnos {
         this.apellidoMat = apellidoMat;
     }
 
-
     public Integer getEdad() {
         return edad;
     }
@@ -39,5 +43,19 @@ public class Alumnos {
         this.edad = edad;
     }
 
+    public String getTelefono() {
+        return telefono;
+    }
 
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }

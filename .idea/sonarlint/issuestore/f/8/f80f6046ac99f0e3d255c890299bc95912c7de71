@@ -1,6 +1,8 @@
 
-¦
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "alumnoDummy".(±‡¹¤8İ—öå1J$ab1dfd43-1b31-4c2a-9b9b-81ba6ae1352c
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÔäüÿÿÿÿÿ8à—öå1J$9eb3f0a5-a583-4478-976e-194361154723
-s
-java:S1144"0Remove this unused private "alumnoDummy" method.(‘×ÒÕ8š˜öå1J$dcad1d27-ee1f-4c38-bece-292b9c1f788d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÔäüÿÿÿÿÿ8à—öå1J$e14a78a5-2017-4e8e-b6f2-a5c2864dae41
+i
+java:S1170"!Make this final field static too.(ÑúìÕúÿÿÿÿ8¸³´ö1J$89b45eef-1b52-462d-be60-987eeb043fbc
+i
+java:S1170"!Make this final field static too.(ÆŞ×Üüÿÿÿÿ8Şó´ö1J$802cc91d-5967-4e9d-92b8-564b4240fbdb
+x
+java:S1068"0Remove this unused "headerString" private field.(ÆŞ×Üüÿÿÿÿ8¢ô´ö1J$66163c39-2d71-4016-9520-7da302bfdd6f
